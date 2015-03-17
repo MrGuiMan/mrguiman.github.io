@@ -1,0 +1,23 @@
+﻿body {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	background-color: #151515;
+}
+p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
+    transform: translate(-50%, -50%);
+	color: white;
+	font-family: monospace;
+	letter-spacing: 2px;
+}
+ 
+p span {
+	font-size: 5px;
+}
